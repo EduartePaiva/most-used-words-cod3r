@@ -10,17 +10,17 @@ import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 
 //icones
-import { aliases, fa } from 'vuetify/iconsets/fa'
+import { aliases,  mdi} from 'vuetify/iconsets/mdi'
 
 
 const vuetify = createVuetify({
   components,
   directives,
   icons: {
-    defaultSet: 'fa',
+    defaultSet: 'mdi',
     aliases,
     sets: {
-        fa,
+        mdi,
     }
   },
 })
