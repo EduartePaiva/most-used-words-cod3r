@@ -28,9 +28,9 @@
 
 </template>
 
-<script>
+<script >
 import PillComponent from './PillComponent.vue'
-
+//import { ipcRenderer } from 'electron'
 
 export default {
     components: {PillComponent},
@@ -46,6 +46,7 @@ export default {
     },
     methods: {
         processSubtitles(){
+            //ipcRenderer.send('blabla', 'alo')
             console.log(this.files)
         }
     }
